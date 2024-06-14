@@ -11,7 +11,7 @@ const config = {
   favicon: "img/icon-starknet.svg",
 
   // Set the production url of your site here
-  url: "https://scaffold-eth-2-docs.vercel.app",
+  url: "https://docs.scaffoldstark.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -70,6 +70,17 @@ const config = {
         respectPrefersColorScheme: true,
       },
       image: "img/icon-starknet.svg",
+      metadata: [
+        { name: "description", content: "Open-source toolkit for building dapps" },
+        { name: "og:title", content: "Scaffold-Stark 2 | Docs" },
+        { name: "og:description", content: "Open-source toolkit for building dapps" },
+        { name: "og:image", content: "https://docs.scaffoldstark.com/img/your-og-image.png" },
+        { name: "og:url", content: "https://docs.scaffoldstark.com" },
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:title", content: "Scaffold-Stark 2 | Docs" },
+        { name: "twitter:description", content: "Open-source toolkit for building dapps" },
+        { name: "twitter:image", content: "https://docs.scaffoldstark.com/img/your-twitter-image.png" },
+      ],
       navbar: {
         title: "Scaffold-Stark 2 | Docs",
         logo: {
